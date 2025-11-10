@@ -12,7 +12,7 @@ export default function Navigation() {
             <a href="#home" className="hover:text-blue-400 transition">Home</a>
             <a href="#it-projects" className="hover:text-blue-400 transition">IT Projects</a>
             <a href="#ux-projects" className="hover:text-purple-400 transition">UX Projects</a>
-            <a href="#3d-gallery" className="hover:text-pink-400 transition">3D Gallery</a>
+            {/* <a href="#3d-gallery" className="hover:text-pink-400 transition">3D Gallery</a> */}
             <a href="#contact" className="hover:text-green-400 transition">Contact</a>
           </div>
         </div>

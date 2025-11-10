@@ -13,6 +13,18 @@ export const itProjects = [
     github: "https://github.com/qian-27/Ryhti_Info"
   },
   {
+    title: "Unity Racing Game",
+    description: "I developed this physics-based 3D racing game as the capstone project for my Unity course. I implemented responsive vehicle handling, realistic collision behavior, and interactive environment elements to create engaging gameplay. This was my first complete game project, and it really pushed me to solve complex problems while mastering Unity's core systems and game mechanics. The satisfaction of seeing everything come together into a playable game was incredible!",
+    tech: ["C#", "Unity", "3D Game Development", "Physics Simulation"],
+    linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7289668121706070018/"
+  },
+  {
+    title: "AI 3D Model Generator Workflow",
+    description: "I created this full local workflow that generates VR-ready 3D models from sketches using ComfyUI and Tencent Hunyuan 3D. This project allows me to quickly explore ideas by refining models in Blender or importing them directly into Unity. Through this project, I deepened my understanding of AI-driven content creation and discovered how to rapidly prototype assets for immersive VR environments. It's incredibly satisfying to see a simple sketch transform into a fully functional 3D model!",
+    tech: ["AI Workflow Design", "ComfyUI", "Unity", "Blender", "VR Development", "Tencent Hunyuan 3D"],
+    linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7292167109151764482/"
+  },
+  {
     title: "React Native Movie App",
     description: "I created this mobile app for browsing and searching movies using real-time API data. Users can view detailed movie information through a clean and intuitive interface. Through this project, I gained hands-on experience integrating external APIs, managing application state effectively, and building native-like experiences for mobile platforms. It really helped me understand the nuances of mobile development compared to web.",
     tech: ["React Native", "API Integration", "State Management", "Mobile UI Development"],
@@ -56,7 +68,7 @@ export const uxProjects = [
   {
     title: "Grenear (Junction Hackathon 2023)",
     description: "I participated in Junction 2023 and helped create this sustainability-focused prototype. I supported UX design decisions, contributed to UI implementation, and helped prepare video presentation materials. This hackathon experience taught me how to work effectively under tight time constraints and enhanced my ability to communicate ideas clearly to judges and potential users. The rapid-iteration environment really pushed me to think creatively and work efficiently with my team!",
-    figmaLink: "https://www.figma.com/proto/uYJdj8t5AOJLs0ujJCdjA4/Energy-Now?nodeid=29-48&t=GIxOx9VLacskbvGG-1",
+    figmaLink: "https://www.figma.com/proto/uYJdj8t5AOJLs0ujJCdjA4/Energy-Now?node-id=55-6297&p=f&t=lio5wyxIUWLdeFK8-1&scaling=min-zoom&content-scaling=fixed&page-id=29%3A48",
     github: "https://github.com/qian-27/grenear",
     demo: "https://www.youtube.com/watch?v=12va3l8n3vw",
     image: "/images/grenear.jpg",
