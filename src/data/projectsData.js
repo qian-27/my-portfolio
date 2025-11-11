@@ -1,14 +1,20 @@
 export const itProjects = [
   {
     title: "Bluetooth Scanning IoT Device",
-    description: "I developed this ESP32-based device for my IoT course that scans nearby Bluetooth signals and outputs changes through both an LCD display and Morse code audio. When I press the button, the device scans for nearby Bluetooth devices, displays the results on the LCD, and the speaker communicates any differences from the last scan in Morse code. This project was a fantastic hands-on experience that taught me embedded systems programming and hardware integration. Working on this really strengthened my teamwork and communication skills as we collaborated to bring hardware and software together.",
+    description: [
+      "During the IoT course, I gained valuable hands-on experience working with embedded systems. My teammate and I designed a Bluetooth scanning device that activates when the user clicks a button. Once triggered, the ESP32 scans for Bluetooth devices in the surrounding environment and displays the results on an LCD screen. Additionally, a speaker with an amplifier announces the results in Morse code.",
+      "This project provided an excellent hands-on experience that taught me embedded systems programming and IoT fundamentals. It also strengthened my teamwork and communication skills as we collaborated to integrate both hardware and software components."
+    ],
     tech: ["C++ (Arduino)", "Embedded Systems", "ESP32", "LCD Display", "Speaker Amplifier", "Team Collaboration"],
     github: "https://github.com/qian-27/Bluetooth-Scanning",
     linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7383896434431008768/"
   },
   {
     title: "Ryhti Info (iOS App)",
-    description: "I developed this Swift-based iOS app to deliver clean and simple information access for users. Through this project, I gained valuable hands-on practice with Apple's UI patterns and navigation handling. It taught me the fundamentals of mobile-focused UX design and how to optimize performance for different iOS devices. Working in Swift was a great learning experience that opened my eyes to native iOS development.",
+    description: [
+      "I developed an iOS application with clean UX design that utilizes open construction data from both the Ryhti project and the City of Helsinki. Using both APIs, I retrieved detailed building information such as the number of floors, area size, room count, and elevator availability.",
+      "This project gave me hands-on experience with Swift programming and Apple design principles. It taught me mobile-focused UX design fundamentals and how to optimize performance for native iOS development."
+    ],
     tech: ["Swift", "iOS Development", "Mobile UX Design", "Xcode"],
     github: "https://github.com/qian-27/Ryhti_Info"
   },
@@ -60,14 +66,21 @@ export const uxProjects = [
   },
   {
     title: "Moodle Redesign",
-    description: "I redesigned the Moodle learning management system's UX to improve clarity and reduce friction in online course navigation. I focused on creating a cleaner menu structure and improving overall accessibility based on my own experience as a student. This project demonstrates my ability to rethink user journeys from an empathetic, user-centered perspective. It felt great to tackle a problem I personally experienced and design a better solution!",
+    description: [
+      "In the prototyping course, we focused on e-learning research. Our team decided to redesign the Moodle platform at Haaga-Helia for a multi-subject course, enabling students from different backgrounds (designers, programmers, and business professionals) to join the same course and complete projects together.",
+      "We focused on serving students who struggled with the platform's navigation—those who found it difficult to locate learning materials or check assignment grades. Through customer research with students at our school, we improved clarity and reduced friction in the course navigation by restructuring the menu and improving overall accessibility.",
+      "This project demonstrates our ability to rethink user journeys from a user-centered perspective and design practical solutions that address real user pain points."
+    ],
     figmaLink: "https://www.figma.com/proto/kg8YI4n8yu47xVSRP2oEHl/Moodle?pageid=0%3A1&node-id=1-1328&p=f&viewport=76%2C45%2C0.11&t=CVyZ8ggvlLb2ID3J-1&scaling=minzoom&content-scaling=fixed",
     image: "/images/moodle-redesign.jpg",
     tags: ["UX Design", "Navigation Design", "Accessibility", "User Research"]
   },
   {
     title: "Grenear (Junction Hackathon 2023)",
-    description: "I participated in Junction 2023 and helped create this sustainability-focused prototype. I supported UX design decisions, contributed to UI implementation, and helped prepare video presentation materials. This hackathon experience taught me how to work effectively under tight time constraints and enhanced my ability to communicate ideas clearly to judges and potential users. The rapid-iteration environment really pushed me to think creatively and work efficiently with my team!",
+    description: [
+      "I participated in Junction 2023 and helped create this sustainability-focused prototype. I supported UX design decisions, contributed to UI implementation, and helped prepare video presentation materials.",
+      "This hackathon taught me to work efficiently under tight deadlines while collaborating with my team. It also improved my ability to communicate with my team members and present ideas effectively to potential users."
+    ],
     figmaLink: "https://www.figma.com/proto/uYJdj8t5AOJLs0ujJCdjA4/Energy-Now?node-id=55-6297&p=f&t=lio5wyxIUWLdeFK8-1&scaling=min-zoom&content-scaling=fixed&page-id=29%3A48",
     github: "https://github.com/qian-27/grenear",
     demo: "https://www.youtube.com/watch?v=12va3l8n3vw",

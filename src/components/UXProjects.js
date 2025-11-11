@@ -12,10 +12,18 @@ export default function UXProjects() {
           {uxProjects.map((project, index) => (
             <div key={index} className="bg-gray-800 bg-opacity-50 backdrop-blur-sm rounded-lg overflow-hidden border border-gray-700">
               <div className="grid md:grid-cols-2 gap-0">
-                <img src={project.image} alt={project.title} className="w-full h-full object-cover" />
+                <div className="flex items-center justify-center p-4">
+                  <img src={project.image} alt={project.title} className="w-full h-auto max-w-[500px] max-h-[500px] object-contain" />
+                </div>
                 <div className="p-8 flex flex-col justify-center">
                   <h3 className="text-3xl font-bold mb-4 text-purple-400">{project.title}</h3>
-                  <p className="text-gray-300 mb-6">{project.description}</p>
+                  <div className="text-gray-300 mb-6 leading-relaxed space-y-3">
+                    {Array.isArray(project.description)
+                      ? project.description.map((para, i) => <p key={i}>{para}</p>)
+                      : <p>{project.description}</p>
+                    }
+                  </div>
+
                   <div className="flex flex-wrap gap-2 mb-6">
                     {project.tags.map((tag, i) => (
                       <span key={i} className="px-3 py-1 bg-purple-900 bg-opacity-50 text-purple-300 rounded-full text-sm">

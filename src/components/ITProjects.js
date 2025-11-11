@@ -12,7 +12,12 @@ export default function ITProjects() {
           {itProjects.map((project, index) => (
             <div key={index} className="bg-gray-800 bg-opacity-50 backdrop-blur-sm rounded-lg p-6 hover:transform hover:scale-105 transition duration-300 border border-gray-700">
               <h3 className="text-2xl font-bold mb-3 text-blue-400">{project.title}</h3>
-              <p className="text-gray-300 mb-4 leading-relaxed">{project.description}</p>
+              <div className="text-gray-300 mb-4 leading-relaxed space-y-3">
+                {Array.isArray(project.description)
+                  ? project.description.map((para, i) => <p key={i}>{para}</p>)
+                  : <p>{project.description}</p>
+                }
+              </div>
 
               <div className="mb-4">
                 <h4 className="text-sm font-semibold text-gray-400 mb-2">Skills</h4>
