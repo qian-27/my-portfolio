@@ -57,6 +57,16 @@ export const itProjects = [
 ];
 
 export const uxProjects = [
+    {
+    title: "Salesforce Lightning Web Component UI",
+    description: [
+      "I designed this concept for a Salesforce Lightning Web Component interface, focusing on structured layouts and efficient user workflows for enterprise environments. Through this project, I learned to consider business logic and process automation while designing UI components.",
+      "It taught me how enterprise software design differs from consumer applications and the importance of workflow optimization."
+    ],
+    figmaLink: "https://www.figma.com/proto/fzJpul6bRDNf8UdD2jmvJp/Salesforce-LWC?node-id=1-4113&p=f&t=s1ScWP647dDhV3lU-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+    image: "/images/salesforce-lwc.jpg",
+    tags: ["Salesforce Platform", "Lightning Web Components", "UI/UX Design", "Enterprise Software Design"]
+  },
   {
     title: "Web Design Concept",
     description: "I created this modern website design prototype focusing on strong visual hierarchy and intuitive user interaction. I designed the layout to be scalable and adaptable for future content expansion. This project helped me explore aesthetic design principles and practice responsive UI planning in Figma. It was a great exercise in thinking about design systems and how to create flexible, maintainable layouts.",
@@ -86,15 +96,5 @@ export const uxProjects = [
     demo: "https://www.youtube.com/watch?v=12va3l8n3vw",
     image: "/images/grenear.jpg",
     tags: ["UX Design", "UI Implementation", "Hackathon Experience", "Rapid Prototyping", "Team Collaboration"]
-  },
-  {
-    title: "Salesforce Lightning Web Component UI",
-    description: [
-      "I designed this concept for a Salesforce Lightning Web Component interface, focusing on structured layouts and efficient user workflows for enterprise environments. Through this project, I learned to consider business logic and process automation while designing UI components.",
-      "It taught me how enterprise software design differs from consumer applications and the importance of workflow optimization."
-    ],
-    figmaLink: "https://www.figma.com/proto/fzJpul6bRDNf8UdD2jmvJp/Salesforce-LWC?node-id=1-4113&p=f&t=s1ScWP647dDhV3lU-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
-    image: "/images/salesforce-lwc.jpg",
-    tags: ["Salesforce Platform", "Lightning Web Components", "UI/UX Design", "Enterprise Software Design"]
   }
 ];
