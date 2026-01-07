@@ -68,13 +68,6 @@ export const uxProjects = [
     tags: ["Salesforce Platform", "Lightning Web Components", "UI/UX Design", "Enterprise Software Design"]
   },
   {
-    title: "Web Design Concept",
-    description: "I created this modern website design prototype focusing on strong visual hierarchy and intuitive user interaction. I designed the layout to be scalable and adaptable for future content expansion. This project helped me explore aesthetic design principles and practice responsive UI planning in Figma. It was a great exercise in thinking about design systems and how to create flexible, maintainable layouts.",
-    figmaLink: "https://www.figma.com/proto/sZsND4BRM35Mzfc8VVpRHd/WebsiteDesign?page-id=0%3A1&node-id=1-4396&p=f&viewport=54%2C977%2C0.12&t=bOZTJZu8bdQa9qm6-1&scaling=min-zoom&content-scaling=fixed",
-    image: "/images/web-design.jpg",
-    tags: ["User Personas", "Web Design", "Visual Hierarchy", "Responsive Design", "Figma Prototyping"]
-  },
-  {
     title: "Moodle Redesign",
     description: [
       "In the prototyping course, we focused on e-learning research. Our team decided to redesign the Moodle platform at Haaga-Helia for a multi-subject course, enabling students from different backgrounds (designers, programmers, and business professionals) to join the same course and complete projects together.",
@@ -84,6 +77,13 @@ export const uxProjects = [
     figmaLink: "https://www.figma.com/proto/kg8YI4n8yu47xVSRP2oEHl/Moodle?pageid=0%3A1&node-id=1-1328&p=f&viewport=76%2C45%2C0.11&t=CVyZ8ggvlLb2ID3J-1&scaling=minzoom&content-scaling=fixed",
     image: "/images/moodle-redesign.jpg",
     tags: ["UX Design", "Navigation Design", "Accessibility", "User Research"]
+  },
+    {
+    title: "Web Design Concept",
+    description: "I created this modern website design prototype focusing on strong visual hierarchy and intuitive user interaction. I designed the layout to be scalable and adaptable for future content expansion. This project helped me explore design principles and practice responsive UI planning in Figma. It was a great exercise in thinking about design systems and how to create flexible, maintainable layouts.",
+    figmaLink: "https://www.figma.com/proto/sZsND4BRM35Mzfc8VVpRHd/WebsiteDesign?page-id=0%3A1&node-id=1-4396&p=f&viewport=54%2C977%2C0.12&t=bOZTJZu8bdQa9qm6-1&scaling=min-zoom&content-scaling=fixed",
+    image: "/images/web-design.jpg",
+    tags: ["User Personas", "Web Design", "Visual Hierarchy", "Responsive Design", "Figma Prototyping"]
   },
   {
     title: "Grenear (Junction Hackathon 2023)",
