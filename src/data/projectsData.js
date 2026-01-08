@@ -43,16 +43,16 @@ export const itProjects = [
     github: "https://github.com/qian-27/React-Car-App"
   },
   {
-    title: "Collaboration Website (HH UAS × Indiana University)",
-    description: "I served as team manager and frontend developer for this international student collaboration between Helsinki Haaga-Helia UAS and Indiana University. I coordinated communication across time zones and cultures while implementing user-facing features with HTML, CSS, and JavaScript. This experience significantly improved my leadership abilities, teamwork skills, and taught me how to navigate cross-cultural collaboration challenges. It was incredibly rewarding to see our team from different continents come together to create something meaningful!",
-    tech: ["HTML, CSS, JavaScript", "Team Management", "Frontend Development", "Cross-Cultural Collaboration"],
-    github: "https://github.com/qian-27/Collaboration-Website"
-  },
-  {
     title: "Python Game Project",
     description: "In this project, I designed and developed a 2D game fully in Python using Pygame as a final project for a 2022 programming MOOC. I implemented all core gameplay mechanics from scratch, including player movement, enemy logic, collision detection, scoring, and game state control. This project demonstrates my ability to build a complete interactive system, structure code effectively, and apply solid programming fundamentals to a real project.",
     tech: ["Python", "Game Logic Development", "Problem Solving", "Object-Oriented Programming"],
     github: "https://github.com/qian-27/Python-Own-Game"
+  },
+    {
+    title: "Collaboration Website (HH UAS × Indiana University)",
+    description: "In this project, I served as team leader and frontend developer for an international student collaboration between Helsinki Haaga-Helia University of Applied Sciences and Indiana University. I coordinated communication across time zones and cultures and implemented website interface features using HTML, CSS, and JavaScript. This experience strengthened my leadership and teamwork skills and helped me better understand cross-cultural collaboration in a real project setting.",
+    tech: ["HTML, CSS, JavaScript", "Team Management", "Frontend Development", "Cross-Cultural Collaboration"],
+    github: "https://github.com/qian-27/Collaboration-Website"
   }
 ];
 
