@@ -50,7 +50,7 @@ export const itProjects = [
   },
   {
     title: "Python Game Project",
-    description: "I designed and developed this game entirely in Python as my final project for a MOOC 2022 course. I implemented all core gameplay mechanics and logic from scratch, which was both challenging and incredibly educational. This project not only highlights my ability to build complete game systems but also showcases my problem-solving skills and programming fundamentals. Creating a game from nothing taught me so much about code organization and user experience!",
+    description: "In this project, I designed and developed a 2D game fully in Python using Pygame as a final project for a 2022 programming MOOC. I implemented all core gameplay mechanics from scratch, including player movement, enemy logic, collision detection, scoring, and game state control. This project demonstrates my ability to build a complete interactive system, structure code effectively, and apply solid programming fundamentals to a real project.",
     tech: ["Python", "Game Logic Development", "Problem Solving", "Object-Oriented Programming"],
     github: "https://github.com/qian-27/Python-Own-Game"
   }
