@@ -20,7 +20,7 @@ export const itProjects = [
   },
   {
     title: "Unity Racing Game",
-    description: "I developed this physics-based 3D racing game as the capstone project for my Unity course. I implemented responsive vehicle handling, realistic collision behavior, and interactive environment elements to create engaging gameplay. This was my first complete game project, and it really pushed me to solve complex problems while mastering Unity's core systems and game mechanics. The satisfaction of seeing everything come together into a playable game was incredible!",
+    description: "During a Unity course, I gained hands-on experience building interactive 3D games and working with physics in a real-time environment. As my final project, I developed a small 3D racing game that challenged me to design responsive controls, realistic movement, and interactive environments. This project strengthened my problem-solving skills and gave me practical experience with Unity, C#, and core game development concepts, while pushing me to think both creatively and technically from start to finish.",
     tech: ["C#", "Unity", "3D Game Development", "Physics Simulation"],
     linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7289668121706070018/"
   },
