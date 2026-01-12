@@ -26,7 +26,7 @@ export const itProjects = [
   },
   {
     title: "AI 3D Model Generator Workflow",
-    description: "I created this full local workflow that generates VR-ready 3D models from sketches using ComfyUI and Tencent Hunyuan 3D. This project allows me to quickly explore ideas by refining models in Blender or importing them directly into Unity. Through this project, I deepened my understanding of AI-driven content creation and discovered how to rapidly prototype assets for immersive VR environments. It's incredibly satisfying to see a simple sketch transform into a fully functional 3D model!",
+    description: "I developed a local, cost-free workflow for generating 3D assets for VR applications using ComfyUI and Tencent Hunyuan 3D, allowing me to quickly turn ideas into models. The process starts with a simple visual prompt or hand-drawn sketch, which is converted into a 3D model through an AI-driven pipeline. The generated assets can then be refined in Blender or imported directly into Unity for testing. This workflow enables fast experimentation, efficient iteration, and creative exploration, helping me quickly evaluate concepts and streamline the early stages of VR development.",
     tech: ["AI Workflow Design", "ComfyUI", "Unity", "Blender", "VR Development", "Tencent Hunyuan 3D"],
     linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7292167109151764482/"
   },
