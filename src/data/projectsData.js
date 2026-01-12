@@ -38,7 +38,7 @@ export const itProjects = [
   },
   {
     title: "React Car App",
-    description: "I created this project by integrating APIs with Material-UI to build a polished car listing interface. Through this work, I strengthened my skills in fetching, filtering, and presenting dynamic data effectively. I also learned how to improve accessibility and maintain UI consistency through reusable component design. Material-UI's component library really helped me understand design systems better.",
+    description: "I developed this project by integrating APIs with Material-UI to create a polished and user-friendly car listing interface. Through this work, I strengthened my ability to fetch, filter, and present dynamic data efficiently. I also improved my understanding of accessibility best practices and UI consistency by designing reusable components. Working with Material-UI’s component library helped me gain a deeper understanding of design systems and scalable front-end development.",
     tech: ["React", "Material-UI", "API Integration", "Data Filtering"],
     github: "https://github.com/qian-27/React-Car-App"
   },
