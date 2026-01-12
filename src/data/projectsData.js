@@ -20,19 +20,25 @@ export const itProjects = [
   },
   {
     title: "Unity Racing Game",
-    description: "During a Unity course, I gained hands-on experience building interactive 3D games and working with physics in a real-time environment. As my final project, I developed a small 3D racing game that challenged me to design responsive controls, realistic movement, and interactive environments. This project strengthened my problem-solving skills and gave me practical experience with Unity, C#, and core game development concepts, while pushing me to think both creatively and technically from start to finish.",
+    description: [
+      "During a Unity course, I gained hands-on experience building interactive 3D games and working with physics in a real-time environment. As my final project, I developed a small 3D racing game that challenged me to design responsive controls, realistic movement, and interactive environments.",
+      "This project strengthened my problem-solving skills and gave me practical experience with Unity, C#, and core game development concepts, while pushing me to think both creatively and technically from start to finish."
+    ],
     tech: ["C#", "Unity", "3D Game Development", "Physics Simulation"],
     linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7289668121706070018/"
   },
   {
     title: "AI 3D Model Generator Workflow",
-    description: "I developed a local, cost-free workflow for generating 3D assets for VR applications using ComfyUI and Tencent Hunyuan 3D, allowing me to quickly turn ideas into models. The process starts with a simple visual prompt or hand-drawn sketch, which is converted into a 3D model through an AI-driven pipeline. The generated assets can then be refined in Blender or imported directly into Unity for testing. This workflow enables fast experimentation, efficient iteration, and creative exploration, helping me quickly evaluate concepts and streamline the early stages of VR development.",
+    description: [
+      "I developed a local, cost-free workflow for generating 3D assets for VR applications using ComfyUI and Tencent Hunyuan 3D, allowing me to quickly turn ideas into models. The process starts with a simple visual prompt or hand-drawn sketch, which is converted into a 3D model through an AI-driven pipeline. The generated assets can then be refined in Blender or imported directly into Unity for testing.",
+      "This workflow enables fast experimentation, efficient iteration, and creative exploration, helping me quickly evaluate concepts and streamline the early stages of VR development."
+    ],
     tech: ["AI Workflow Design", "ComfyUI", "Unity", "Blender", "VR Development", "Tencent Hunyuan 3D"],
     linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7292167109151764482/"
   },
   {
     title: "React Native Movie App",
-    description: "I created this mobile app for browsing and searching movies using real-time API data. Users can view detailed movie information through a clean and intuitive interface. Through this project, I gained hands-on experience integrating external APIs, managing application state effectively, and building native-like experiences for mobile platforms. It really helped me understand the nuances of mobile development compared to web.",
+    description: "I developed a mobile application for browsing and searching movies using real-time API data, allowing users to explore detailed movie information through a clean and intuitive interface. This project gave me hands-on experience integrating external APIs, managing application state effectively, and building native-like experiences for mobile platforms. It also helped me better understand the unique considerations and nuances of mobile development compared to web-based applications.",
     tech: ["React Native", "API Integration", "State Management", "Mobile UI Development"],
     github: "https://github.com/qian-27/React-Native-Movie-App"
   },
